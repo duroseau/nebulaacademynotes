@@ -9,3 +9,4 @@ console.log(brownsville.toLowerCase())
 let PistachioAlmond=`My favorite ice cream flavor is pistachio almond`
 console.log(PistachioAlmond)
 console.log
+console.log
