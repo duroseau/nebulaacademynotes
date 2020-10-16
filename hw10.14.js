@@ -14,7 +14,7 @@ console.log(brooklyn.slice(7, 15))
 
 console.log
 console.log(brooklyn.slice(36, 43))
-notes/hw10.14.js
+
 let brownsville='we are learning new strings'
 console.log(brownsville)
 console.log(brownsville.length)
@@ -28,7 +28,7 @@ console.log(PistachioAlmond)
 console.log
 console.log
 console.log
-
+console.log
 
 
 
