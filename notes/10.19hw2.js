@@ -9,6 +9,4 @@ let fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'
 //console.log(fruits.pop())//watermelon
 //console.log(fruits)//'apple' 'orange','peach', 'lemon', 'plum', 'grape'
 //console.log(fruits.push ('banana'))//8
-//console.log(fruits)//'apple', 'orange', 'peach','lemon', 'plum', 'grape', 'watermelon',banana//
-
-
+//console.log(fruits)//'apple', 'orange', 'peach','lemon', 'plum', 'grape', 'watermelon',
