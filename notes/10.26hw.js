@@ -1,26 +1,32 @@
 //  function sumNum(num1, num2){
-//     return num1 + num2
+    
+//     return sumNum = (num1 / num2)
+//  }
+//  console.log(sumNum(144, 11))
 
-// console.log(sumNum(12, 8))
+
 // function divisionRemainder(num1, num2){
-//     return num1 / num2
+    
+   
+//     return divisionRemainder = (num1 % num2)
 
+
+
+// }
 // console.log(divisionRemainder(144, 11))
-//  function divisionRemainder(num1, num2)
-//     return num1 % num2
+
+// function sumItUp(done){
+    
+//     return sumnum + ' results ' + divisionRemainder
 // }
-//  console.log(divisionRemainder(144, 11))
-// const num1 = (144 / 11)
-// const num2 = (144 % 11)
-// function remainder(calculate){
-//     return caulculate 
-// }
+// console.log()
+
 
 // console.log(num1, ('remainder') ,num2)
 // function randomNums(goFigure){
     
-// }
-// console.log(Math.random() * 1000)
+
+console.log(Math.random() * 1000)
 
 // function theType(dataType){
 //     return dataType * dataType
@@ -49,10 +55,11 @@
 // }
 // console.log(myInitials(name))
 
-let sports = ['basketball', 'hockey', 'baseball', 'football', 'fencing', 'chess']
-function 
+// let sports = ['basketball', 'hockey', 'baseball', 'football', 'fencing', 'chess']
+// function {
 
-Sorry Teacher: I was stuck on number 8, but I will grab asession with one of you experts or just google instanceof, I am turning this in incomplete for now
+// }
+
 
 
 
