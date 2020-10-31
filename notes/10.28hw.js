@@ -8,7 +8,7 @@
 
 
 // This function will return the initials of the first and last names passed into the function
-let name = ('eddy duroseau')
+
 
 //function initials(firstName, lastName){
    // console.log(name)
