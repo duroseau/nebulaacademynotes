@@ -10,7 +10,7 @@
 
 //          return 'the letter a does not exist'
 //     } else {
-//         return 'The letter a exists in the string'
+//         return `The letter a exists in the string ${school1}`
 //     }
 // }
 //  console.log(doesAExist(school1))=> The letter a exists in the string
@@ -33,7 +33,7 @@
 /* -------------------------------------------------------------------------- */
 
 // function numberChecker(oddEven){
-//     if (oddEven % 2 === 1){
+//     if (oddEven % 2 === 0){
 //         return oddEven + ' is an even number '
 //     } else{
 //         return oddEven + ' is an odd number'
