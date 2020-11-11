@@ -59,17 +59,14 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 //     .includes() method. This function should loop through the array!)
 
 // function search(num){
-//    for (let i = 1; i <= num; i++){
-//        if (typeof num === 'boolean'){
+//    for (let i = 0; i <= num; i++){
+//         console.log(num)
+//         if (Array.isArray(num[i])){
 
-       
-        
-//     console.log([i])
-//    }
+//  console.log(num[i])
+// }
 
-// }
-// }
-// console.log(search[9])
+// console.log(search(numArray))
        
     
     
@@ -99,25 +96,19 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 
 // This function will return a new array with number that are NOT divisible by 3
 // let numbers = [0, 5, 33, 99, 11]
-// function divider(num){
+// function lessThree (num){
+//         let total = 0
+//         for (let i = 0; i < num.length; i++){
+//             if (num[i] % 3 === 0){
+//                 continue
+//             }
+//             total += num[i]
+//         }
+//         return total 
+//     }
+//     console.log(lessThree(numbers)) =>//16//
     
-//     for (let i = 0; i < num.length; i++){
-         
-//         console.log(num)
-//         if (num % 3 / num[i]){
-//             return value
-//         }
-                 
-//           console.log(num[i])
-//         }
-  
-// }    
-        
-
-     
-
-// console.log(divider(numbers))
-I am struggling with the last two will pick it up in homework review
+//
 /* -------------------------------------------------------------------------- */
 
 // Problem # 7
