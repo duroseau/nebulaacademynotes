@@ -129,9 +129,9 @@
 // This function removes the first elements from any array that is passed into this function as an argument.
 
 // function removeFirst(notoast){
-//     return notoast.slice(1)
+//     return notoast.shift()
 // }
 // console.log(removeFirst(['toast', 'eggs', 'juice', 'pancake', 'oatmeal']))//=> 'eggs', 'juice', 'pancake', 'oatmeal'=> [ 'eggs', 'juice', 'pancake', 'oatmeal' ]
 
-// I think I almost got it
+
 

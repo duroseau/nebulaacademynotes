@@ -83,5 +83,3 @@
 //         return `my favorite country is ${favorite[0]}`
 // }
 // console.log(favoriteCountry(countries))
-
-Sorry teacher I have to get all of these right, don't mean to confuse you, bare with me

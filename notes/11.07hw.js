@@ -1,6 +1,6 @@
 // let school = 'nebula'
 // function topNotch(education){
-//     for (i = 0; i < education.length; i++){
+//     for (i = 0; i <= education.length -1; i++){
 //         console.log(education[i])
 //     }
 //     return 'Done'
