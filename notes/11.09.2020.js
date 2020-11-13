@@ -97,6 +97,27 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 // This function will return a new array with number that are NOT divisible by 3
 // let numbers = [0, 5, 33, 99, 11]
 // function lessThree (num){
+    //     let total = 0
+    //     for (let i = 0; i < num.length -1; i++){
+    //         if (num[i] % 3 === 0){
+    //             continue
+    //         }
+    //         total += num [i]
+    //         console.log(num [i])
+    //     }
+       
+        
+    // }
+    // console.log(lessThree(numbers)) //=>5
+    
+//
+/* -------------------------------------------------------------------------- */
+
+// Problem # 7
+
+// Create another function that adds the numbers in the array that are NOT divisible by 3 and return the total/
+// let numbers = [0, 5, 33, 99, 11]
+// function lessThree (num){
 //         let total = 0
 //         for (let i = 0; i < num.length; i++){
 //             if (num[i] % 3 === 0){
@@ -105,12 +126,7 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 //             total += num[i]
 //         }
 //         return total 
-//     }
-//     console.log(lessThree(numbers)) =>//16//
-    
-//
-/* -------------------------------------------------------------------------- */
+// }
 
-// Problem # 7
-
-// Create another function that adds the numbers in the array that are NOT divisible by 3 and return the total/
+// console.log(lessThree(numbers))=16
+Hey Teacher, I will be waiting to speak to you tonite
