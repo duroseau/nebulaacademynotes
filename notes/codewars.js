@@ -26,12 +26,9 @@
 // setAlarm(true, false) -> true
 
 // function dataType (timer){
-//   // for(let i = 0; i <= (timer); i++){
+//  
     
-//     if (typeof timer === 'boolean'){
-//       return timer
-//       // if (vacation !== 'boolean'){
-//       //   return timer
+//    
 
 //       }
 
@@ -40,26 +37,19 @@
   
 // console.log(3 === 6)
 /* -------------------------------------------------------------------------- */
-problem 3
+// problem 3
 // I'm new to coding and now I want to get the sum of two arrays...actually the sum of all their elements. I'll appreciate for your help.
 
 // P.S. Each array includes only integer numbers. Output is a number too
-// let numArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
-// let newArray = [-1, -2, -3]
-// // problem 3
-// function theSum(add){
-    
-//     // for (let i = 0; i < add.length ; i++){
-      
-//         total = 0;
-//          for (let i = 0; i < add.length; i++){
-//             total += add[i]
-//         }
-//         return total 
-//     }
 
-    
-    // console.log(theSum(newArray.concat(numArray))) =>39
+    // function arrayPlusArray(arr1, arr2) {
+    //     let arr3 = arr1.concat(arr2)
+    //     console.log(arr3)
+    //     let total = 0
+    //     for (let i = 0; i <= arr3.length -1; i++){
+    //       total += arr3[i]
+    //     }
+    //       return total
 // }/* -------------------------------------------------------------------------- */
 // problem 4
 // Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
@@ -110,5 +100,28 @@ problem 3
 // past(0, 1, 1) == 61000
 // Input constraints: 0 <= h <= 23, 0 <= m <= 59, 0 <= s <= 59
 
-yeah we gotta Talk, the site was confusing (to me at least)
 
+
+// function squareSum(numbers){
+//     total = 0
+//     for (let i = 0; numbers.length; i++)
+//       total += Math.pow(numbers[i], 2)
+//     return total
+
+//     if (employed === true && vacation === false)
+//     return true
+//     else {
+//         return false
+//     }
+//     let array = []
+//     PushManager(i)
+    
+//     if (array[n] === undefined)
+//         return -1, 
+//         return Math.pow(array[n],n)
+
+//         let sec = s*1000
+//         let minutes =m*60000
+//         let hour = *h3600000
+//         return hour + minutes + sec
+        

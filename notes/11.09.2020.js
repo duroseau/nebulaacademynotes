@@ -78,6 +78,7 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 // This function will return a new array with the elements in reverse order
 
 // function sdrawKcab(backwards){
+    
 //     for (let i = 0; i <= backwards.length -1; i++){
 // console.log(backwards [i])
 //     }
@@ -88,7 +89,7 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 
 // }
 
-// console.log(sdrawKcab(numArray))=> done this one had to be a nested loop
+// console.log(sdrawKcab(numArray))//=> done this one had to be a nested loop
 /* -------------------------------------------------------------------------- */
 // Problem # 6
 
@@ -118,15 +119,16 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 // Create another function that adds the numbers in the array that are NOT divisible by 3 and return the total/
 // let numbers = [0, 5, 33, 99, 11]
 // function lessThree (num){
-//         let total = 0
-//         for (let i = 0; i < num.length; i++){
-//             if (num[i] % 3 === 0){
-//                 continue
-//             }
-//             total += num[i]
-//         }
-//         return total 
-// }
+        let total = 0
+        for (let i = 0; i < num.length; i++){
+            if (num[i] % 3 === 0){
+                continue
+            
+            total += num[i]
 
-// console.log(lessThree(numbers))=16
-Hey Teacher, I will be waiting to speak to you tonite
+        }
+        return total 
+}
+
+console.log(lessThree(numbers))=16
+// Hey Teacher, I will be waiting to speak to you tonite
