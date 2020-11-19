@@ -16,24 +16,24 @@
 // Return the string, 'Done!' at the end
 
 
-// let array = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
+let array = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
 
-// function time(money){
+function time(money){
 
 
-// for (let i = 0; i < array.length; i++){
-//      let  dough = array[i];
-//    if (Array.isArray(dough)){
+for (let i = 0; i < array.length; i++){
+     let  dough = array[i];
+   if (Array.isArray(dough)){
    
-//     for (let j = 0; j < dough[j]; j++){
-//         let pie = dough[j]
-// console.log(dough)
-//     }
-//     }
-// }
-// return "Done"
-//  }
-//  console.log(time(array))=> 4,5,7,8,9,14,15,18 Done
+    for (let j = 0; j < dough[j]; j++){
+        let pie = dough[j]
+console.log(dough)
+    }
+    }
+}
+return "Done"
+ }
+ console.log(time(array))
 
 
 // Problem #2
@@ -41,30 +41,23 @@
 // Create a function that adds only the ODD numbers inside the NESTED arrays.
 
 // Return the total
-let nested = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
-function yellow(purple){
-    let total = 0;
-    for (let i = 0; i < purple.length; i++){
-        let prince = purple[i].length
-        for (let j = 0; j < prince; j++){
-            let raspberryBeret = prince[j]
-            console.log(raspberryBeret)
-            if (raspberryBeret % 2===1){
-                total += raspberryBeret[i][j]
-                raspberryBeret++
-             
-                 
-            }
-           
-            
-        }
-    }
-   
-}
+// let nested = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
+// function yellow(purple){
+//     let total = 0;
+//     for (let i = 0; i < purple.length; i++){
+//         let prince = purple[i]
+//         for (let j = 0; j < prince; j++){
+//             let raspberryBeret = prince
+//             if (raspberryBeret[j] % 2===1){
+//                 raspberryBeret += total  
+                           
+//             }        
+//         }
+//     }
+//     return total
+// }
        
-   
-
-  console.log(yellow(nested))
+//    console.log(yellow(nested))
 // Problem #3
 
 // Create a function that logs only the EVEN numbers in the array and in the nested arrays.
@@ -77,7 +70,7 @@ function yellow(purple){
 
  
 
-let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+// let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
 // let nestedArray = [0, 1, [2, 3, 4], 5, 6, 7, [], [8, 9, 10], 11, 12, [13]]
  
 
@@ -118,24 +111,23 @@ let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'c
 // Create a function that adds that word 'nested' to the end of every nested array.
 
 // // Return the new array
-// nestedArr.push(['nested'])
-// function nested(atEnd){
+let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+function nested(atEnd){
  
-//     for (let i = 0; i < atEnd.length; i++){
-//         let back = atEnd[i]
-//         if (Array.isArray(back)){   
-//             for (let j = 0; j < back[j]; j++){
-//                 let allTheWay = back[j]               
-//                 console.log(allTheWay[j])
-//                 return allTheWay[j]
-//             }
-           
+    for (let i = 0; i < atEnd.length; i++){
+        let back = atEnd[i]
+        if (Array.isArray(back)){   
+            back[j].push('nested')
+            
 
-//         }
-//     }
+            }
+           
+            return back
+        }
+    }
    
-//  }
-//  console.log(nestedArr)=> nested
+ 
+ console.log(nested(nestedArr))
 
 
 

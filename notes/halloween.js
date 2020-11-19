@@ -59,3 +59,67 @@ let x = 10;
 //     console.log(x + y + z);
 // }
 // console.log (x + z)
+Given a 2D array of size nXm:
+
+Create two functions to perform basic direction transformations on the array.
+
+First Function:
+Create function rotate(arr,dir) that get the array (arr) and a direction (dir=90||-90||180) and returns the array after it has been rotated accordingly.
+For instance:
+
+Given:
+
+var arr1= [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+Using rotate(arr1,90) will the array rotated clockwise:
+
+
+rotate(arr1,90) = [
+  [7,4,1],
+  [8,5,2],
+  [9,6,3],
+]
+Using rotate(arr1,-90) will return the array rotated counter-clockwise:
+
+
+rotate(arr1,-90)= [
+  [3,6,9],
+  [2,5,8],
+  [1,4,7],
+]
+Using rotate(arr1,180) will return the array rotated twice (180 degrees):
+
+
+rotate(arr1,180)= [
+  [9,8,7],
+  [6,5,4],
+  [3,2,1],
+]
+Second Function:
+Create function flip(arr,axis) that get the array (arr) and a direction ("v" for vertical, "h" for horizontal) and returns the array after it has been flipped along the spcified axis.
+For instance:
+
+Given:
+
+var arr1= [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+Using flip(arr1,"v") will flip the array on a vertical axis and will output:
+
+flip(arr1,'v') = [
+  [7,8,9],
+  [4,5,6],
+  [1,2,3]
+]
+Using flip(arr1,"h") will flip the array on a horizontal axis and will output:
+
+flip(arr1,'h')= [
+  [3,2,1],
+  [6,5,4],
+  [9,8,7]
+]

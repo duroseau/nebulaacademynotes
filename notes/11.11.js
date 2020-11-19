@@ -81,3 +81,21 @@ function index(array, n){
       return Math.pow(array[n],n)
     }
     console.log(index(array, n))
+
+    let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+
+// function remote(first){
+// let then = []
+//     for (let i = 0; i < first.length; i++){
+//         let now = first[i]
+//         if (Array.isArray(now)){
+//             for (let j = 0; j < now.length; j++){
+//               let then = now[j]
+//               then.push(first[i])
+//             }
+//         }
+//     }
+    
+//     return 'done'
+// }
+// console.log(remote(nestedArr))

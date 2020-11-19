@@ -48,16 +48,6 @@
 // }
 // console.log(fifthIndex(sports))=> Chess
 
-// let name = 'eddy duroseau' 
-// function myInitials(firstName, LastName){
-// console.log(name[0])
-// console.log(name[5])  
-//     return (firstName, LastName)
-    
-    
-    
-// }
-// console.log(myInitials(name))=> E D
 
 // let myMotto = "Life is what You make it"
 // function Uppercase(beHappy){
