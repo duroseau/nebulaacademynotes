@@ -13,11 +13,21 @@
 // console.log(isEqualTo100(99, 1))
 // console.log(numbers(99, 3))
 
-function areYouPlayingBanjo(name) {
-    if (name.includes('R',)){
-      return name + ' plays banjo'
+// function areYouPlayingBanjo(name) {
+//     if (name.includes('R',)){
+//       return name + ' plays banjo'
       
-    }else {
-      return name + ' does not play banjo'
-    }
-      return name;
+//     }else {
+//       return name + ' does not play banjo'
+//     }
+//       return name;
+
+function product(n, y){
+ 
+
+  return (n + n + y + y)
+}
+    
+
+
+console.log(product(6, 5))

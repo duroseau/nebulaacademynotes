@@ -79,10 +79,16 @@ var summation = function (num) {
 
 // For example:
 //     let total = 0;
-//     for (let i = 1; i <= num; i++) {
+//     for (let i = 1; i <= num; i--) {
 //       total += i;
 //     }
     
 //     return total;
 //   }
 // it may not be in order but ...
+var splitstring = str.split('')
+var reverse array = splitstr.reverse()
+var joinaray = reverse array.joinaray
+return joinarray
+
+return str.split('').reverse().join('');
