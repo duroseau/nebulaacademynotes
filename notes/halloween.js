@@ -129,4 +129,23 @@
 
 
 function numberz(num1)
-
+function rowWeights(arr) {
+    result = [0, 0];
+    arr.forEach( (value, index) => result[index%2] += value );
+    return result;
+  };
+  function rowWeights(array){
+    let newArray = []
+    let team1 = 0
+    let team2 = 0
+    for (let i = 0; i < array.length; i++){
+      if (i % 2 === 0){
+        team1 += array[i]
+     }   
+        if (i % 2 === 1){
+          team2 += array[i]
+       } 
+      }
+        newArray.push(team1,team2) 
+    
+    return newArray

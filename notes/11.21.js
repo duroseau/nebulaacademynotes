@@ -6,26 +6,35 @@ let myInfo = {
     city: 'Hartsdale'
 
 }
-console.log(myInfo)
+// console.log(myInfo)
 // create a funciton that adds 1 to your age
 // function addToAge(years){
 // for (let key in ){
-    function chekAge(add){
-console.log(add.age)
- add.age++
- return add
-    }
-    console.log(chekAge(myInfo))
+//     function chekAge(add){
+// console.log(add.age)
+//  add.age++
+//  return add
+//     }
+//     console.log(chekAge(myInfo))
 
 
 // create a function that returns the keys in an array
-let newOne = [',']
-function newArray(stringgy){
-for (let key in object){
-    console.log(stringgy)
-    return newOne(stringgy)[i]
-}
-console.log(newOne)
-}
+// function chkValue (arr){
+// for (let key in arr){
+//     return Object.keys(arr)
+// } 
+
+//   }
+// console.log(chkValue(myInfo))[ 'name', 'age', 'city' ]
+  
+
+
 
 // create a funciton that returns the values in an array format
+// function chkKey(arr1){
+//     for (let value in arr1){
+//        return Object.values(myInfo)
+//     }
+// }
+// console.log(chkKey(myInfo))[ 'Eddy Duroseau', 99, 'Hartsdale' ]
+

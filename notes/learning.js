@@ -22,12 +22,42 @@
 //     }
 //       return name;
 
-function product(n, y){
+// function product(n, y){
  
 
-  return (n + n + y + y)
-}
+//   return (n + n + y + y)
+// }
     
 
 
-console.log(product(6, 5))
+// console.log(product(6, 5))
+let animals = {
+  kangaroo: {
+      name: 'Joey',
+      age: 10
+  },
+  camel: {
+      name: 'Cathy',
+      age: 2
+  },
+  cow: {
+      name: 'Sean',
+      age: 15
+  },
+  turtle: {
+      name: 'Victoria',
+      age: 100
+  }  
+}
+function loopAnimals (object){
+  for (let key in object){
+      let animal = key
+      let animalName = object[key].name
+      let animalAge = object[key].age
+      console.log(`${animalName} the ${animal} is ${animalAge} years old.`)
+      // console.log(`${object[key].name} the ${key} is ${object[key].age} years old.`)
+      
+  }
+  return 'Done!'
+}
+console.log(loopAnimals(animals))
