@@ -61,3 +61,39 @@ function loopAnimals (object){
   return 'Done!'
 }
 console.log(loopAnimals(animals))
+
+cw7
+for (int i = 0; i < n; i++) 
+{
+  std::cin >> Numbers[i];
+}
+
+std::cout << std::endl;
+
+for (int j = 0; j < n - 1; j++) 
+{
+  if (ProductOutOfTwo(Numbers[j], Numbers[j + 1]) > MaxProduct) 
+  {
+    MaxProduct = ProductOutOfTwo(Numbers[j], Numbers[j + 1]);
+  }
+}
+
+std::cout << MaxProduct << std::endl;
+
+
+function product(input){
+    if (toString.call(input) !== "[object Array]")
+       return false;
+     
+            var total   =   1;
+     
+          for(var i=0;i<input.length;i++){
+                  if(isNaN(input[i])){
+                    continue;
+                  }
+                   total   *=  Number(input[i]);
+               }
+             return total;
+           }
+           let answer = numbers.sort((a, b) => a - b);
+           return answer[answer.length -1] - [answer.answer.length -2
