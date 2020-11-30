@@ -7,14 +7,27 @@ const sumNested = arr => {
 
   const sequenceSum = (begin, end, step) => 
   
-   begin > end ? 0 : begin + sequenceSum(begin + step, end, step)
+  function sequenceSum(begin, end, step) {
+    let sum = 0
+    for (let i = begin; i <= end; i += step) {
+      sum += i
+    }
+    return sum
+  }
 
    function replicate(times, number) {
     if (times<= 0) return [];
    return Array(times).fill(number)
 }
 function factorial (n) {
-    return n>1?n*factorial(n-1):n<0?null:1; 
+  function factorial (n) {
+    if(n === 1){
+      return 1
+  } else {
+      return n*factorial(n-1)
+} 
+console.log(n) I almost got it
+}
 
     function reverse(n){
       if (n == n)
