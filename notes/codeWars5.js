@@ -31,7 +31,7 @@ function maxGap (numbers){
 // https://www.codewars.com/kata/5a512f6a80eba857280000fc
 function nthSmallest(arr, pos){
     let answer = arr.sort((a, b) => a - b);
-     console.log(answer)
+     
        return answer[pos -1]
    
    
