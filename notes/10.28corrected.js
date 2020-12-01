@@ -18,16 +18,18 @@
 // Problem 2
 
 // Create a function called bool that has returns the Boolean of any argument passed into it*******
-// let untrue = (3, 7)
+/* -------------------------------------------------------------------------- */
 // function bool(tact){
 
-//     return tact
+// if (tact% 2 === 0){
+//     return 'the number '+ tact + ' is an even number'
+// }else{
+//     return 'the number '+ tact + ' is an odd number'
 // }
-     
-
-//  console.log(bool(3===7))
-
- 
+// }
+//  console.log(bool(3))=>the number 3 is an odd number
+// console.log(bool(8))=>the number 8 is an even number
+ /* -------------------------------------------------------------------------- */
 
 // Problem 3
 
@@ -55,7 +57,7 @@
 //     return index[5]
 // }
 // console.log(characterAt(`i've been waiting for this moment`))
- 
+ /* -------------------------------------------------------------------------- */
 
 // Problem 5
 
@@ -63,10 +65,10 @@
 
 // This function will return the square roof of any number that is passed in as an argument
 // function squareRoot(p){
-//     return p * p
+// return Math.sqrt(p)
 // }
-// console.log(squareRoot(9))//=> 81
-
+// console.log(squareRoot(81))=> 9
+/* -------------------------------------------------------------------------- */
  
 
 // Problem 6
@@ -91,7 +93,7 @@
 //     return enjoy[enjoy.length -1]
 // }
 // console.log(lastchar('life is what you make it'))//=> t
- 
+ /* -------------------------------------------------------------------------- */
 
 // Problem 8
 
@@ -100,14 +102,17 @@
 // This function will combine the two arrays passed into this function and return the new combined array
 // let plants = ['cactus','aloe vera', 'fern', 'cyclamen']
 // let trees = ['palm', 'apple', 'cherry', 'pear', 'peach']
-// function itConcats(nature){
-//     console.log(plants)
-//     console.log(trees)
-//     return [nature] + (plants.concat(trees))
+// function itConcats(forest){
+//  return plants.concat(trees)
 // }
-// console.log(itConcats(plants))//=> 'cactus', 'aloe vera', 'fern', 'cyclamen' ]
-//  ['palm', 'apple', 'cherry', 'pear', 'peach' ]
- 
+// console.log(itConcats(plants))=>[
+//   'cactus', 'aloe vera',
+//   'fern',   'cyclamen',
+//   'palm',   'apple',
+//   'cherry', 'pear',
+//   'peach'
+// ]
+/* -------------------------------------------------------------------------- */ 
 
 // Problem 9
 
@@ -121,17 +126,17 @@
 // }
 //  console.log(lastTwoEle(['toast', 'eggs', 'juice', 'pancake', 'oatmeal']))//=> 'pancake', 'oatmeal']=> [ 'pancake', 'oatmeal' ]
 
-
+/* -------------------------------------------------------------------------- */
 // Problem 10
 
 // Create a function called removeFirst that takes in an array as a parameter.
 
 // This function removes the first elements from any array that is passed into this function as an argument.
-
-// function removeFirst(notoast){
-//     return notoast.shift()
+// let breakfast = ['toast', 'eggs', 'juice', 'pancake', 'oatmeal']
+// function removeFirst(noToast){
+//     return breakfast.shift()
 // }
-// console.log(removeFirst(['toast', 'eggs', 'juice', 'pancake', 'oatmeal']))//=> 'eggs', 'juice', 'pancake', 'oatmeal'=> [ 'eggs', 'juice', 'pancake', 'oatmeal' ]
+// console.log(removeFirst(breakfast))=> toast
 
-
+/* -------------------------------------------------------------------------- */
 

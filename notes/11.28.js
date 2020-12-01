@@ -21,10 +21,12 @@ const sumNested = arr => {
 }
 function factorial (n) {
   function factorial (n) {
+    if(n<0){
+      return null
     if(n === 1){
       return 1
   } else {
-      return n*factorial(n-1)
+       }     return n*factorial(n-1)
 } 
 console.log(n) I almost got it
 }
@@ -48,3 +50,4 @@ console.log(n) I almost got it
          }
           return total
           }
+

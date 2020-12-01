@@ -33,3 +33,25 @@ function arraySum(arr) {
     return total
     }
 }
+let year = DOB[0]
+
+let month = DOB[1]
+
+let day = DOB[2]
+
+let y = (year - 1) % 9 + 1
+
+let m = (month - 1) % 9 + 1
+
+let d = (day - 1) % 9 + 1
+
+let total = y + m + d
+
+return (total -1) % 9 + 1
+
+for (let i = n; i >= 0; i--){
+  return [n]
+
+}
+  return n.join(',')
+}
