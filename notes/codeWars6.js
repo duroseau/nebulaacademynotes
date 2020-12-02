@@ -30,15 +30,22 @@ Life Path Number
 https://www.codewars.com/kata/5a1a76c8a7ad6aa26a0007a0
 
 function lifePathNumber(dateOfBirth) {
-    let newnum = dateOfBirth.split(',')
-   total = 0
-     for (let i = 0; i < newnum.length;i++){
-      console.log(newnum[i])
-      total++
-     }
-     return total
-   }
 
+  let year = DOB[0]
+
+  let month = DOB[1]
+  
+  let day = DOB[2]
+  
+  let y = (year - 1) % 9 + 1
+  
+  let m = (month - 1) % 9 + 1
+  
+  let d = (day - 1) % 9 + 1
+  
+  let total = y + m + d
+  
+  return (total -1) % 9 + 1
 Problem #4
 
 Form the Largest
