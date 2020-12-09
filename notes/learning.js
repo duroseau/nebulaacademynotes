@@ -96,5 +96,13 @@ function product(input){
              return total;
            }
            let answer = numbers.sort((a, b) => a - b);
-           return answer[answer.length -1] - [answer.answer.length -2
+           return answer[answer.length -1] - [answer.answer.length -2  const copy = []
+           for (let i=0;i <array.length;i++){
+             if (array[i]% i===0){
+               copy.push(array[i])
+             }
+           }  
+           return copy
+
+
             
