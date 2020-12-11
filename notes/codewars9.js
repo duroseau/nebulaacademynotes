@@ -34,7 +34,13 @@ function enough(cap, on, wait) {
 Reversed Sequence
 
 https://www.codewars.com/kata/5a00e05cc374cb34d100000d
-
+const reverseSeq = n => {
+  let blank = []
+  for (let i=n;i>0;i--){
+    blank.push(i)
+  }
+  return blank
+};
  
 
 Switch it up
@@ -53,4 +59,45 @@ for (let i = 0; i < queue.length; i++){
     return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
   }
 }
+// Sum of a sequence
+// https://www.codewars.com/kata/586f6741c66d18c22800010a
+const sequenceSum = (begin, end, step) => {
+  let sum = 0;
+
+  for (let i = begin; i <= end; i += step) {
+    sum += i;
+  }
+
+  return sum;
+};
+// Sum of a nested list
+// https://www.codewars.com/kata/5a15a4db06d5b6d33c000018
+const sumNested = arr => {
+  if (Array.isArray(arr)) {
+    return arr.reduce(function(accumulator, currentValue) {
+      return accumulator + sumNested(currentValue);
+    }, 0);
+  } else {
+    return arr;
+  }
+};
+    
+ }
+  return total
+};
+function countSheeps(arrayOfSheep) {
+  let count = 0;
+ arrayOfSheep.forEach((sheep) => {if (sheep === true) count++;});
+ return count;
 }
+return arrayOfSheep.filter(Boolean).length;
+// Count of positives 
+// const sequenceSum = (begin, end, step) => {
+let sum = 0;
+
+for (let i = begin; i <= end; i += step) {
+  sum += i;
+}
+
+return sum;
+};
