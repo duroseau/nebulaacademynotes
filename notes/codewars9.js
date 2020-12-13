@@ -52,10 +52,10 @@ https://www.codewars.com/kata/5808dcb8f0ed42ae34000031
 A Wolf in Sheep's Clothing
 
 https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
-queue = queue.reverse();
-if (queue[0] === 'wolf') return "Pls go away and stop eating my sheep";
-for (let i = 0; i < queue.length; i++){
-  if (queue[i] === 'wolf') {
+block = block.reverse();
+if (block[0] === 'wolf') return "Pls go away and stop eating my sheep";
+for (let i = 0; i < block.length; i++){
+  if (block[i] === 'wolf') {
     return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
   }
 }
