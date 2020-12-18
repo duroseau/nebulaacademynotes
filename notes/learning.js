@@ -105,4 +105,31 @@ function product(input){
            return copy
 
 
-            
+           function points(games) {
+            for (let i = 0; i < games.length; i++) {
+              if (+games[i][0] > +games[i][2]) {
+                result +=3
+              } else if (+games[i][0] == +games[i][2]) {
+                result += 1
+              }
+            }
+            return result
+          }
+        }     
+        
+        function countSheeps(arrayOfSheep) {
+          let count = 0;
+         arrayOfSheep.forEach((sheep) => {if (sheep === true) count++;});
+         return count;
+       }
+      // Count of positives 
+      // const sequenceSum = (begin, end, step) => {
+        let sum = 0;
+      
+        for (let i = begin; i <= end; i += step) {
+          sum += i;
+        }
+      
+        return sum;
+      };
+      
