@@ -1,0 +1,121 @@
+.topnav {
+    background-color: rgb(211, 37, 37);
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .topnav b.end{
+      float: flex-end;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .gold-header{
+    color :rgb(211, 181, 14);
+  }
+  .red-header{
+    font-size : 150px;
+      color :rgb(190, 13, 13)
+      
+  }
+  h4 {
+    text-align:fill 
+  } 
+
+  element.style {
+    text-align: center;
+}
+.theme--rebrand .theme--dark h1, .theme--rebrand .theme--dark h2, .theme--rebrand .theme--dark h3, .theme--rebrand .theme--dark h4, .theme--rebrand .theme--dark label, .theme--rebrand .theme--dark p {
+    color: #fff;
+}
+@media (max-width: 800px)
+.theme--rebrand h1 {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.theme--rebrand h1 {
+    color: #1e1a1a;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.theme--dark a, .theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4, .theme--dark label, .theme--dark p {
+    color: #fff;
+}
+@media (max-width: 800px)
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+h1 {
+    color: #262629;
+    font-size: 44px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body{
+    /* background-color: #ff0000; */
+    background-image: url('world.jpg')
+}

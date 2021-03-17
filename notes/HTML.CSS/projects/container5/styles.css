@@ -1,0 +1,106 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(175, 21, 21);
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #be1717;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(161, 13, 13);
+  color: rgb(156, 21, 21);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #070641;
+  color: rgb(199, 97, 97);
+}
+body{
+  font-family: 'Nova Square', cursive;
+    /* background-color: #ff0000; */
+    background-image: url('water1.jpg')
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Style the header */
+.header {
+  background-color: #14407231;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #bdaf34d0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(199, 59, 59);
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.gold-header{
+  color :rgb(211, 181, 14);
+}
+h4 {
+  text-align:fill 
+}  
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  background-color :rgb(157, 180, 201);
+  color : rgb(90, 9, 9);
+  
+}
+button:hover {
+  background-color: #4CAF50;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+}

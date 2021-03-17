@@ -1,0 +1,53 @@
+
+element.style {
+    }
+    :root {
+        --more-info: url(https://a.c-dn.net/b/2W3VVq.svg#more-info-arrow.svg);
+        --cta-arrow: url(https://a.c-dn.net/b/2iZR7Y.svg#cta-arrow.svg);
+        --red-tick: url(https://a.c-dn.net/b/49Zx01.svg#red-tick.svg);
+        --minus-sign: url(https://a.c-dn.net/b/2Nr3Qe.svg#Minus_Sign.svg);
+        --plus-sign: url(https://a.c-dn.net/b/21vQpT.svg#Plus_Sign.svg);
+        --back-to-top: url(https://a.c-dn.net/b/2McedH.svg#back-to-top.svg);
+        --flags: url(https://a.c-dn.net/b/4efwtD.png#flags.png);
+        --menu-arrow: url(https://a.c-dn.net/b/21pX5B.svg#Menu-Arrow.svg);
+        --divider-arrow: url(https://a.c-dn.net/b/3WR78e.svg#Divider-Arrow.svg);
+        --ls-arrow: url(https://a.c-dn.net/b/4dGQFT.svg#ls-arrow.svg);
+        --dropdown-chevron: url(http://a.c-dn.net/b/4cbxhP.svg#dropdown_chevron.svg);
+        --help-and-support: url(http://a.c-dn.net/b/40n1NJ.svg#help&support.svg);
+        --academy: url(http://a.c-dn.net/b/1Arpdh.svg#IG_Academy.svg);
+        --community: url(http://a.c-dn.net/b/3i6Gkx.svg#IG_community.svg);
+        --red-plus-sign: url(https://a.c-dn.net/b/4fL615.svg#red-plus-sign.svg);
+        --red-minus-sign: url(https://a.c-dn.net/b/2qqkdk.svg#red-minus-sign.svg);
+        --logo: url(https://a.c-dn.net/b/07Cglg.svg#IG_LOGO.svg);
+        --logo-width: 60px;
+    }
+    <style>
+    :root {
+        --hr-margin: 0 auto;
+        --hr-height: 4px;
+        --hr-width: 200px;
+        --hr-bg-color: #b72122;
+        --hr-height-arrow: 25px;
+        --hr-width-arrow: 43px;
+        --hr-height-thin: 1px;
+        --hr-width-border: 100%;
+        --hr-bg-color-border: #b0b0b8;
+        --hr-width-animated: 0;
+    }
+    
+    <style>
+    .hydrated {
+        visibility: inherit;
+    }
+    html {
+        line-height: 1.15;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    html[Attributes Style] {
+        -webkit-locale: "en-US";
+    }
+    user agent stylesheet
+    html {
+        display: block;
+    }
